@@ -524,15 +524,15 @@ input{
     color: #ff6700;
 }
 .shouji:hover{
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     transition: 0.5s;
-    box-shadow: 0 0 100px 5px #b0b0b0;
+    box-shadow: 0 0 30px 2px #e0e0e0;
     cursor: pointer;
 }
 .main-box1-bottom1:hover{
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     transition: 0.5s;
-    box-shadow: 0 0 100px 5px #b0b0b0;
+    box-shadow: 0 0 30px 2px #e0e0e0;
     cursor: pointer;
 }
 s{
@@ -579,9 +579,9 @@ s{
     /* background-color: aliceblue; */
 }
 .jiadian-D:hover{
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     transition: 0.5s;
-    box-shadow: 0 0 100px 5px #b0b0b0;
+    box-shadow: 0 0 30px 2px #e0e0e0;
     cursor: pointer;
 }
 .jiadian-D:hover .xiangshang{
@@ -590,15 +590,15 @@ s{
     cursor: pointer;
 }
 .jiqiren:hover{
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     transition: 0.5s;
-    box-shadow: 0 0 100px 5px #b0b0b0;
+    box-shadow: 0 0 30px 2px #e0e0e0;
     cursor: pointer;
 }
 .jiadian-D-D:hover{
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     transition: 0.5s;
-    box-shadow: 0 0 100px 5px #b0b0b0;
+    box-shadow: 0 0 30px 2px #e0e0e0;
     cursor: pointer;
 }
 .jiadian-D{
@@ -849,16 +849,6 @@ s{
     background: #fff;
     color: #333;
 }
-.main7-many2{
-    float: left;
-    width: 296px;
-    height: 415px;
-    /* margin-left: 14px; */
-    margin-bottom: 14px;
-    margin-left: 14px;
-    background: #fff;
-    color: #333;
-}
 .main-many-tu{
     width: 296px;
     height: 220px;
@@ -868,14 +858,18 @@ s{
     width: 296px;
     height: 220px;
 }
-.review{
+.main7-many .review{
     color: #333;
     height: 72px;
     margin: 0 28px 22px;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:3;
     overflow: hidden;
+    text-overflow: ellipsis;
 }
 .zuozhe{
     height: 18px;
@@ -951,6 +945,7 @@ s{
     height: 374px;
     padding-top: 45px;
     margin-bottom: 14px;
+    margin-right: 14px;
     background: #fff;
     border-top: 1px solid #ffac13;
     position: relative;
@@ -1000,7 +995,6 @@ s{
     margin-left: -51px;
     width: 102px;
     height: 30px;
-    /* background-color: #333; */
 }
 .dian2 li{
     width: 6px;
@@ -1015,46 +1009,35 @@ s{
 .dian2 li:hover{
     background-color: #ff6700;
 }
-.main8-bottom2-many{
-    float: left;
-    width: 296px;
-    height: 374px;
-    padding-top: 45px;
-    margin-bottom: 14px;
-    margin-left: 14px;
-    background: #fff;
+.bottom-many2{
     border-top: 1px solid #83c44e;
-    position: relative;
 }
-.main8-bottom3-many{
-    float: left;
-    width: 296px;
-    height: 374px;
-    padding-top: 45px;
-    margin-bottom: 14px;
-    margin-left: 14px;
-    background: #fff;
+.bottom-many3{
     border-top: 1px solid #e53935;
-    position: relative;
 }
-.main8-bottom4-many{
-    float: left;
-    width: 296px;
-    height: 374px;
-    padding-top: 45px;
-    margin-bottom: 14px;
-    margin-left: 14px;
-    background: #fff;
+.bottom-many4{
     border-top: 1px solid #2196f3;
-    position: relative;
 }
-.many-title1{
+.many-title{
     margin: 0 10px 18px;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
     color: #ffac13;
 }
+.many-title1{
+    color: #ffac13;
+}
+.many-title2{
+    color: #83c44e;
+}
+.many-title3{
+    color: #e53935;
+}
+.many-title4{
+    color: #2196f3;
+}
+
 .many-bottom{
     height: 340px;
     float: left;
@@ -1095,24 +1078,17 @@ s{
     width: 216px;
     height: 154px;
 }
-.many-title2{
-    margin: 0 10px 18px;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    color: #83c44e;
-}.many-title3{
-    margin: 0 10px 18px;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    color: #e53935;
-}.many-title4{
-    margin: 0 10px 18px;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    color: #2196f3;
+.main8-bottom-many:hover{
+    transform: translateY(-2px);
+    transition: 0.5s;
+    box-shadow: 0 0 30px 2px #e0e0e0;
+    cursor: pointer;
+}
+.main8-bottom-many:hover .main8-jiantou-right{
+    display: block;
+}
+.main8-bottom-many:hover .main8-jiantou-left{
+    display: block;
 }
 .main9{
     width: 1226px;
@@ -1153,19 +1129,26 @@ s{
     width: 1240px;
     height: 285px;
 }
-.video-many1{
+.video-many{
     float: left;
     width: 296px;
     height: 285px;
     margin-bottom: 14px;
+    margin-right: 14px;
     text-align: center;
     background: #fff;
 }
-.video-many1 .figure{
+.video-many .figure{
     width: 296px;
     height: 180px;
     margin-bottom: 28px;
     position: relative;
+}
+.video-many:hover{
+    transform: translateY(-2px);
+    transition: 0.5s;
+    box-shadow: 0 0 30px 2px #e0e0e0;
+    cursor: pointer;
 }
 .figure img{
     width: 296px;
@@ -1188,42 +1171,14 @@ s{
     line-height: 20px;
 }
 
-.video-many1 .title{
+.video-many .title{
     font-size: 14px;
     font-weight: 400;
     text-align: center;
     color: #333;
     margin-bottom: 6px;
 }
-.video-many1 .desc{
-    height: 18px;
-    margin: 0;
-    font-size: 12px;
-    color: #b0b0b0;
-}
-.video-many2{
-    float: left;
-    width: 296px;
-    height: 285px;
-    margin-bottom: 14px;
-    margin-left: 14px;
-    text-align: center;
-    background: #fff;
-}
-.video-many2 .figure{
-    width: 296px;
-    height: 180px;
-    margin-bottom: 28px;
-    position: relative;
-}
-.video-many2 .title{
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    color: #333;
-    margin-bottom: 6px;
-}
-.video-many2 .desc{
+.video-many .desc{
     height: 18px;
     margin: 0;
     font-size: 12px;
@@ -1417,81 +1372,21 @@ s{
     line-height: 55px;
 }
 .main6-many:hover{
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     transition: 0.5s;
-    box-shadow: 0 0 100px 5px #b0b0b0;
+    box-shadow: 0 0 30px 2px #e0e0e0;
     cursor: pointer;
 }
 .main7-many:hover{
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     transition: 0.5s;
-    box-shadow: 0 0 100px 5px #b0b0b0;
+    box-shadow: 0 0 30px 2px #e0e0e0;
     cursor: pointer;
 }
 .main7-many2:hover{
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     transition: 0.5s;
-    box-shadow: 0 0 100px 5px #b0b0b0;
-    cursor: pointer;
-}
-.main8-bottom-many:hover{
-    transform: translateY(-5px);
-    transition: 0.5s;
-    box-shadow: 0 0 100px 5px #b0b0b0;
-    cursor: pointer;
-}
-.main8-bottom-many:hover .main8-jiantou-right{
-    display: block;
-}
-.main8-bottom-many:hover .main8-jiantou-left{
-    display: block;
-}
-.main8-bottom2-many:hover{
-    transform: translateY(-5px);
-    transition: 0.5s;
-    box-shadow: 0 0 100px 5px #b0b0b0;
-    cursor: pointer;
-}
-.main8-bottom2-many:hover .main8-jiantou-right{
-    display: block;
-}
-.main8-bottom-many:hover .main8-jiantou-left{
-    display: block;
-}
-.main8-bottom3-many:hover{
-    transform: translateY(-5px);
-    transition: 0.5s;
-    box-shadow: 0 0 100px 5px #b0b0b0;
-    cursor: pointer;
-}
-.main8-bottom3-many:hover .main8-jiantou-right{
-    display: block;
-}
-.main8-bottom3-many:hover .main8-jiantou-left{
-    display: block;
-}
-.main8-bottom4-many:hover{
-    transform: translateY(-5px);
-    transition: 0.5s;
-    box-shadow: 0 0 100px 5px #b0b0b0;
-    cursor: pointer;
-}
-.main8-bottom4-many:hover .main8-jiantou-right{
-    display: block;
-}
-.main8-bottom4-many:hover .main8-jiantou-left{
-    display: block;
-}
-.video-many1:hover{
-    transform: translateY(-5px);
-    transition: 0.5s;
-    box-shadow: 0 0 100px 5px #b0b0b0;
-    cursor: pointer;
-}
-.video-many2:hover{
-    transform: translateY(-5px);
-    transition: 0.5s;
-    box-shadow: 0 0 100px 5px #b0b0b0;
+    box-shadow: 0 0 30px 2px #e0e0e0;
     cursor: pointer;
 }
 .container-many:hover{
